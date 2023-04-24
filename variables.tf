@@ -53,3 +53,17 @@ variable "rg_name" {
   type        = string
   description = "Resouce group name"
 }
+
+
+variable "project" {
+  type        = string
+  description = "Resource group name"
+  default     = "OSCAR"
+}
+
+
+variable "owner" {
+  type        = string
+  description = "Owner name"
+  default     = "SBO"
+}
